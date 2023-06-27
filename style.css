@@ -54,6 +54,13 @@ body{
     top: 0;
     left: 0;
 }
+#header .logo img{
+    display: block;
+    display: flex;
+    width: 64px;
+    height: 50px;
+    
+}
 #navbar{
     display: flex;
     align-items: center;
@@ -189,14 +196,14 @@ body{
     font-size: 30px;
     color: #707070;
 }
-.input-box input {
+#hero .input-box input {
     height: 100%;
     width: 100%;
     outline: none;
     font-size: 18px;
     font-weight: 400;
     border: none;
-    padding: 0 155px 0 65px;
+    padding: 0 155px 10px 65px;
     background-color: transparent;
 }
 .input-box .button{
